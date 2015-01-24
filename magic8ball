@@ -1,0 +1,14 @@
+#!/usr/bin/python3
+print('welcome to magic 8 ball lez go eat applepie cuz i said!')
+import random
+answers = ['192.192.383.1.0','yes','no','maybe','reply hazy','ask again l8ter','applepie','dude... am i freaking out?']
+while True:
+    print('ask me a question?')
+    question = input('> ')
+
+    answer = random.choice(answers)
+    print(answer)
+    if 'death' in question and die in question:
+        print('''im a good dude and plz dont talk about death and/or killing around here right now:(''')
+    elif 'death' in question and 'die' in question:
+        answers.append('''dont ask me about death plz i dont like to talk about that stuff thnx :D bye now then sorry :(''')
