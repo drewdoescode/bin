@@ -1,0 +1,13 @@
+#!/usr/bin/python3
+
+red = '\033[0;31m'
+yellow = '\033[0;33m'
+reset = '\033[0m'
+clear = '\033[H\033[2J'
+print(clear)
+
+print( red + 'hello the what is your name?' + reset)
+
+name = input(yellow + '> ')
+print(' Hi ', name)
+
