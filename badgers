@@ -1,0 +1,13 @@
+#!/usr/bin/env python3
+
+import colors as c
+import time
+
+for verse in range(3):
+    for count in range(12):
+        print(c.cyan + str(count) + " ApplePie...")
+        time.sleep(0.37)
+    for count in range(2):
+        print(c.magenta + str(count) + " BlueBerryPie")
+        time.sleep(1)
+
